@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,700;1,500&display=swap');
+
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter';
+}
+body{
+    background-color: #333333!important;
+}
+/* Header */
+header{
+    color: #B1A592;
+}
+ul li{
+    list-style-type: none;
+}
+.left{
+    width: 60vw;
+}
+.right{
+    width: 40vw;
+}
+header .left ul li,.right .contact span,header{
+    border: 1px solid #B1A592;
+}
+/* Main */
+.loreum span{
+    border: 1px solid #323025;
+}
+.loreum div strong{
+    border-bottom: 0.2rem solid black;
+}
+header,main{
+    margin: 1rem;
+}
+main .row{
+    margin: 1rem;
+}
