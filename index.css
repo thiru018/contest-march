@@ -8,6 +8,10 @@ a{
     margin: 0%;
     font-family: 'Inter';
 }
+img{
+    height: 100%;
+    width: 100%;
+}
 body{
     background-color: #333333!important;
 }
@@ -31,12 +35,23 @@ header .left ul li,.right .contact span,header{
 .loreum span{
     border: 1px solid #323025;
 }
-.loreum div strong{
+.loreum div strong,.portrait span{
     border-bottom: 0.2rem solid black;
 }
 header,main{
     margin: 1rem;
 }
-main .row{
+/* main .row{
     margin: 1rem;
+} */
+main .row .col-6 .row{
+    background: #8E886D;
+}
+.b1{
+    background: #916E58!important;
+    border-radius: 30px;
+}
+.b2{
+    background: #b1a48e !important;;
+    border-radius: 30px;
 }
