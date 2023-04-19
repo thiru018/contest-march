@@ -28,7 +28,7 @@ ul{
     max-height: 50px;
 }
 section{
-    margin: 2rem auto;
+    margin: 5rem auto;
     max-width: 500px;
     display: flex;
     gap: 1.5rem;
@@ -59,21 +59,30 @@ section p{
     display: flex;
     gap: 1.5rem;
     border-radius: 50svh;
-    padding: 10px 20px ;
+    padding: 0px 20px ;
     color: white;
     font-size: 20px;
     background-color: #8799cc;
 }
 .nav-list li:hover{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10svh;
-    color: black;
-    transition: 3s all ease-out;
-    /* color: rgb(255, 255, 255,1); */
+    color: rgb(255, 255, 255,1);
 }
 main section h2{
     font-weight: 500;
     font-size: 40px;
     color: white;
+}
+@media screen and (max-width:730px) {
+    section,.container{
+        max-width: 100vw;
+    }
+    .nav-list, header{
+        flex-direction: column;
+    }
+    .nav-list{
+        margin-top: 2rem;
+    }
+    .brand{
+        justify-content: center;
+    }
 }
